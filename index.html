@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<body bgcolor="#181818">
+<head>
+<meta charset="utf-8">
+<title>Vance's Page</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText">maybe pressing the button will make an image appear?</p>
+<button id="clickButton" class="buttonStyle">A button</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent ="I don't know how to do that yet";
+}
+</script>
+
+</body>
+</html>
