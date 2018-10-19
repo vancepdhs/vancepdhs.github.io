@@ -2,7 +2,7 @@
 
 <html lang="en">
   <link rel="icon" href="https://img.fireden.net/v/image/1460/34/1460348828926.png">
-  <body background="">
+  <body background="https://vignette.wikia.nocookie.net/jimmyneutron/images/9/9d/Prufesur_Sheen.png/revision/latest?cb=20160322121122">
 <head>
   <meta charset="utf-8">
   
@@ -38,19 +38,17 @@
   </tr>
   </table>
   </nav>
-  
+  <div>
+<p1>
+    My nama Vance Thrasher and I am a big fan of Byce Swift. I am a student attending Palm Desert High School. I like computers and video games so I'm in Computer Science Principles. Welcome to my portfolio website. I want to have a career in something
+</p1>
+<p2>
+  I want to go to Byce Swift College to learn how to run epic servers. I am a very good builder in the popular video game Minecraft and I think it will get me very far in life.
+</p2>
+</div>
 </ul>
-<table>
-  <tr>
-  <img src="/pictures/vance1.jpeg" alt="Vance lookin at his watch" style="max-width: 13.5%">
-  </tr>
- <tr>
-  <img src="/pictures/vance2.jpeg" alt="Vance smiling" style="max-width: 20%">
-  </tr>
-  <tr>
-  <img src="/pictures/byceboogie.jpg" alt="the byce boogie" style="width: 24%">
-  </tr>
-  </table>
+  <img src="https://vignette.wikia.nocookie.net/nickelodeon/images/a/a5/Sheen_Estevez.png/revision/latest?cb=20150409032758" alt="L I T T Y Sheen">
+  <img src="https://pbs.twimg.com/media/B3RQ-VFCIAEk52C.png" alt="LI Tty sheen">
 <footer>
     <div style="position: fixed; bottom: 50px; right: 50px;">
       <p>Palm Desert High School</p>

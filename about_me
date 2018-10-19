@@ -1,24 +1,26 @@
 <!doctype html>
 
 <html lang="en">
+   <link rel="icon" href="https://img.fireden.net/v/image/1460/34/1460348828926.png">
+<body background="https://vignette.wikia.nocookie.net/jimmyneutron/images/9/9d/Prufesur_Sheen.png/revision/latest?cb=20160322121122">
  <head>
   <meta charset="utf-8">
   
-  <title>Projects</title>
+  <title>About Me</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" href="https://img.fireden.net/v/image/1460/34/1460348828926.png">
   <body background="https://vignette.wikia.nocookie.net/jimmyneutron/images/9/9d/Prufesur_Sheen.png/revision/latest?cb=20160322121122">
-       
-       <body>
- <nav class="navbar navbar-dark bg-dark">
-    <table>
+</head>
+<div>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+<table>
 <tr>
   <div id="mainContent">
- <h1>
+    <h1>
     Vance Thrasher
-</h1>
-</div>
+    </h1>
+  </div>
 </tr>
 <tr>
   <ul class="nav justify-content-end">
@@ -26,16 +28,23 @@
   <li class="nav-item">
     <a class="nav-link" href="/index.html">Home</a></li>
   <li class="nav-item">
-    <a class="nav-link" href="/about_me.html">About Me</a></li>
+    <a class="nav-link active" href="/about_me.html">About Me</a></li>
   <li class="nav-item">
     <a class="nav-link" href="/resume.html">Resume</a></li>
   <li class="nav-item">
-    <a class="nav-link active" href="/projects.html">Projects</a></li>
+    <a class="nav-link" href="/projects.html">Projects</a></li>
   <li class="nav-item">
     <a class="nav-link" href="/contact_me.html">Contact Me</a></li>
   </tr>
   </table>
   </nav>
+  </div>
+  </ul>
   <img src="https://banner2.kisspng.com/20180704/qqg/kisspng-sheen-estevez-jimmy-neutron-boy-genius-cindy-vort-jimmy-neutron-5b3c6f04338280.367476051530687236211.jpg" alt="L I T T Y Sheen 2">
-  </body>
+<footer>
+  <div style="position: fixed; bottom: 50px; right: 50px;">
+      <p>Palm Desert High School</p>
+    </div>
+</footer>
+</body>
   
