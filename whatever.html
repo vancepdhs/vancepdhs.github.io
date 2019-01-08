@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+      <link rel="icon" href="/bbbyce.jpg">
+<head>
+<meta charset="utf-8">
+<title>Vance</title>
+
+</head>
+    
+<body>
+    
+    <button type="button" onclick=clkme() >Click<img src="/bbbyce.jpg" style="width:30%;height:30%;" />Me</button>
+    <p id="ptext">como te llama jajaja</p>
+
+    <button type="button" onclick=adder() >Adder</button>
+    
+    <button type="button" onclick=freaking() >freaking</button>
+
+    <p id="nama">baby byce's nama here</p>
+    <h1 id="strung">byce swift</h1>
+    
+<script>
+    function clkme(){
+        var ptext = document.getElementById('ptext')
+        ptext.innerHTML = 'Bryce freaking Brewer'
+        ptext.style.fontSize = "35px"
+        ptext.style.color = "purple"
+    }
+    
+    function adder(){
+        var x = 3
+        var y = 23
+        var z = x + y
+        var ptext = document.getElementById('ptext')
+        ptext.innerHTML = z
+        alert("ATTENTION uhhh 26")
+                ptext.style.color = "orange"
+
+    }
+    
+    function freaking(){
+        var x = 2
+        var y = 13
+        var z = x * y
+        var ptext = document.getElementById('ptext')
+        ptext.innerHTML = z
+        ptext.style.color = "red"
+    }
+    
+    var word = "Bryce" + " " + "(Bruce Brewhole)" + " " + "Brewer"
+    document.getElementById("nama").innerHTML = word
+    
+    var stringy = "Byce" + " " + "Freaking" + " " + "(Bru's Wiffle)" + " " + "Swift" + " " + "Brew"
+    document.getElementById("strung").innerHTML = stringy
+    
+</script>
+
+</body>
+</html>
