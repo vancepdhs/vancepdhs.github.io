@@ -26,15 +26,40 @@
     
     <p id="yoy">yeah bruh this isn't working</p>
     
+    <button type="button" id="Clicker" onclick=picChange()>no u</button>
+    
+    <button type="button" onclick=adder() >Adder</button>
+    <button id="showimg" type="button" onclick=showimg() >SHOW</button>
+    <button id="hideimg" type="button" onclick=hideimg() >HIDE</button>
+    
 <script>
 
-    var state = "minecraft"
+    var button2 = document.createElement('button')
+    var buttonText = document.createTextNode("Clicker")
+    button2.appendChild(buttonText)
+    button2.setAttribute("onclick", "picChange()")
+    button2.setAttribute("id", "bubblegum")
+    document.body.appendChild(button2)
 
+    function hideimg(){
+        pic.style.display = "none"
+    }
+    function showimg(){
+        pic.style.display = ""
+    }
+
+    var state = "minecraft"
+    var pic = document.getElementById("graphic")
+    var button = document.getElementById("picButton")
+    
     function picChange(){
       
      if (state == "minecraft"){
         var button = document.getElementById("picButton")
         button.innerHTML = "Fortnite"
+        state = "fortnite"
+     }
+     else if (state == "minecraft"){
         state = "fortnite"
      }
      else if (state == "fortnite"){
