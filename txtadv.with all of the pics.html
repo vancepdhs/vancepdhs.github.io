@@ -91,10 +91,6 @@
         max-width: 100%;
         width: 100%;
     }
-    #text{
-      font-size: 20px;
-      color: pink;
-    }
 </style>
 
 </head>
@@ -140,80 +136,18 @@
          
       <div id="rightpane">
           <div id="storytext">
-            <p id="text">THIS IS WHERE SICKO MODE WILL BE</p>
+            <p>THIS IS WHERE SICKO MODE WILL BE</p>
           </div>
           <div id="buttons">
-                  <button id="button1" onclick="buttonclick(1)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button2" onclick="buttonclick(2)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button3" onclick="buttonclick(3)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button4" onclick="buttonclick(4)" type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                  <button type="button" class="btn btn-warning">Warning</button>
                    
           </div>
       </div>
+      
+      
   </div>
-  
-  <script>
-    var graphic = document.getElementById("graphic")
-    var text = document.getElementById("text")
-    var button1 = document.getElementById("button1")
-    var button2 = document.getElementById("button2")
-    var button3 = document.getElementById("button3")
-    var button4 = document.getElementById("button4")
-    var state = "intro"
-    
-    function intro(){
-      text.innerHTML = "intro text"
-      button1.innerHTML = "aha"
-      button1.style.display = "block"
-      button2.innerHTML = "yes"
-      button2.style.display = "block"
-      button3.style.display = "none"
-      button4.style.display = "none"
-      graphic.src = "/byceboogie.jpg"
-    }
-    
-    function park(){
-      text.innerHTML = "you aha'd to the park"
-      button1.innerHTML = "wew"
-      button1.style.display = "block"
-      button2.innerHTML = "sleep"
-      button2.style.display = "block"
-      button3.innerHTML = "swim"
-      button3.style.display = "block"
-      button4.innerHTML = "dab on children"
-      button4.style.display = "block"
-      graphic.src = "https://i.ytimg.com/vi/XWg4vN5JEN8/maxresdefault.jpg"
-    }
-    
-    function alley(){
-      text.innerHTML = "ur in tornado alley now bud"
-      button1.innerHTML = "AAAAAAAAAAAAAAA"
-      button1.style.display = "block"
-      button2.innerHTML = "oh god oh no i'd better run"
-      button2.style.display = "block"
-      button3.innerHTML = "dab"
-      button3.style.display = "none"
-      button4.innerHTML = "play fortnite"
-      button4.style.display = "none"
-      graphic.src = "https://t1.rbxcdn.com/5094e2fa146a1b9f7af88da8fa691d08"
-    }
-    
-    function buttonclick(button){
-      if (state == "intro"){
-        if (button == 1){
-          state = "park"
-          park();
-        }
-        else if (button == 2){
-          state = "alley"
-          alley();
-        }
-      }
-    }
-    
-    intro()
-    
-  </script>
-  
   </body>
   </html>
