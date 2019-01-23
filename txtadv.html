@@ -11,150 +11,115 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
-    body{
-      overflow: hidden;
-    }
-    #container{
-        position: absolute;
-        top: 92px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        background: black;
-        background-image: url("https://media.giphy.com/media/1oE3Ee4299mmXN8OYb/giphy.gif");
-    }
-    #leftpane{
-        width: 56%;
-        height: 100%;
-        background: red;
-        background-image: url("byce_thanos.JPG");
-        float: left;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #rightpane{
-        width: 44%;
-        height: 100%;
-        background: yellow;
-        background-image: url("Prufesur_Sheen.png");
-        float: left;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #buttons{
-        position: absolute;
-        bottom: 0px;
-        left: 56%;
-        right: 0px;
-        height: 50px;
-        background: pink;
-        background-image: url("chug-jug.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .btn{
-      margin: 40px;
-    }
-    #storytext{
-        position: absolute;
-        bottom: 50px;
-        left: 56%;
-        right: 0px;
-        top: 0px;
-        background: blue;
-        background-image: url("minecraft.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #mafia{
-        position: absolute;
-        top: 30%;
-        bottom: 0px;
-        width: 100%;
-        height: 100%;
-        background-image: url("thats-how-mafia-works.png");
-        background-repeat: no-repeat;
-        background-size: auto;
-    }
-    #grad1{
-        background: red; /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
-    }
-    #graphic{
-        max-height: 100%;
-        max-width: 100%;
-        width: 100%;
-    }
-    #text{
-      font-size: 20px;
-      color: pink;
-    }
-</style>
+        
+        body{
+            overflow: hidden;
+        }
+            #container{
+                position: absolute;
+                top: 80px;
+                bottom: 0px;
+                left: 0px;
+                right: 0px;
+                background: black;
+            }
+            
+            #leftpane{
+                width: 56%;
+                height: 100%;
+                float: left;
+            }
+            
+            #rightpane{
+                width: 44%;
+                height: 100%;
+                float: left;
+            }
+            #buttons{
+                position: absolute;
+                bottom: 50px;
+                left: 56%;
+                right: 0px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .btn{
+                margin: 40px;
+            }
+            #storytext{
+                position: absolute;
+                left: 56%;
+                right: 0px;
+                top: 0px;
+                bottom: 50px;
+            }
+            #graphic{
+                max-height: 100%;
+                max-width: 100%;
+                width: 100%;
+            }
+            #bottomtext{
+                color: white;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    
+<table style="float: right;">
+    <tr>
+        <td>
+            <div>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+        <a class="nav-link" href="/index.html">Home</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/aboutme.html">About me</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/projects.html">Projects</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/contactme.html">Contact me</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link " href="/textgame.html">Text Game</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link active" href="/survivalisland.html">Survival Island</a>
+      </ul>
+            </div>
+        </td>
+    </tr>
+</table>
 
-</head>
+<font size="30"><strong>Shun Akiya</strong></font>
 
-<div>
-<body>
-  <nav class="navbar navbar-dark bg-dark" id="grad1">
-<table>
-<tr>
-  <div id="mainContent">
-    <h1>
-    Vance Thrasher
-    </h1>
-  </div>
-</tr>
-<tr>
-  <ul class="nav justify-content-end">
-    <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link" href="/index.html">Home</a></li>
-  <li class="nav-item">
-    <a class="nav-link" href="/about_me.html">About Me</a></li>
-  <li class="nav-item">
-    <a class="nav-link" href="/resume.html">Resume</a></li>
-  <li class="nav-item">
-    <a class="nav-link" href="/project1.html">Hangman Game</a></li>
-  <li class="nav-item">
-    <a class="nav-link" href="/project2.html">Text Adventure</a></li>
-  <li class="nav-item">
-    <a class="nav-link active" href="/txtadv.html">Javascript Text Adventure</a></li>
-  <li class="nav-item">
-    <a class="nav-link" href="/contact_me.html">Contact Me</a></li>
-  </tr>
-  </table>
-  </nav>
-  </div>
-  </ul>
-  <div id="container">
-      <div id="leftpane">
-         <div id="mafia"></div>
-         <img id="graphic" src="https://clubpenguinislandhelp.files.wordpress.com/2017/04/4713.jpg?w=840"/>
-      </div>
-         
-      <div id="rightpane">
-          <div id="storytext">
-            <p id="text">THIS IS WHERE SICKO MODE WILL BE</p>
-          </div>
-          <div id="buttons">
-                  <button id="button1" onclick="buttonclick(1)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button2" onclick="buttonclick(2)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button3" onclick="buttonclick(3)" type="button" class="btn btn-warning">Warning</button>
-                  <button id="button4" onclick="buttonclick(4)" type="button" class="btn btn-warning">Warning</button>
-                   
-          </div>
-      </div>
-  </div>
-  
-  <script>
+<div id = "container">
+    <div id="leftpane">
+        <img id ="graphic" src="/images/island.jpg"/>
+    </div>
+    <div id="rightpane">
+        <div id="storytext">
+            <p id="bottomtext">the program is not working (clearly)</p>
+        </div>
+        <div id="buttons">
+            <button id="button1" onclick="buttonclick(1)" type="button" class="btn btn-warning">it</button>
+            <button id="button2" onclick="buttonclick(2)" type="button" class="btn btn-warning">is</button>
+            <button id="button3" onclick="buttonclick(3)" type="button" class="btn btn-warning">not</button>
+            <button id="button4" onclick="buttonclick(4)" type="button" class="btn btn-warning">working</button>
+        </div>
+    </div>
+</div>
+
+<script>
     var graphic = document.getElementById("graphic")
-    var text = document.getElementById("text")
+    var bottomtext = document.getElementById("bottomtext")
     var button1 = document.getElementById("button1")
     var button2 = document.getElementById("button2")
     var button3 = document.getElementById("button3")
@@ -162,58 +127,164 @@
     var state = "intro"
     
     function intro(){
-      text.innerHTML = "intro text"
-      button1.innerHTML = "aha"
-      button1.style.display = "block"
-      button2.innerHTML = "yes"
-      button2.style.display = "block"
-      button3.style.display = "none"
-      button4.style.display = "none"
-      graphic.src = "/byceboogie.jpg"
+        bottomtext.innerHTML = "Intro: You wake up on a beach in the middle of the wreckage of your private plane. You look around and find that you are on a tropical island with jungles and a mountain further inland; and you find that the sun is right above your head, which means that it is sometime in the afternoon. The last thing that you remember is going on vacation to the Bahama islands with your friends during a storm; your initial plan was to go the Bahamas to spend time with your family that lives there. Explore the beach or search the broken plane? Press Explore to explore the beach, and search to search the broken plane:"
+        button1.innerHTML = "Explore"
+        button1.style.display = "block"
+        button2.innerHTML = "Search"
+        button2.style.display = "block"
+        button3.style.display = "none"
+        button4.style.display = "none"
+        graphic.src="/images/island1.jpg"
     }
-    
-    function park(){
-      text.innerHTML = "you aha'd to the park"
-      button1.innerHTML = "wew"
-      button1.style.display = "block"
-      button2.innerHTML = "sleep"
-      button2.style.display = "block"
-      button3.innerHTML = "swim"
-      button3.style.display = "block"
-      button4.innerHTML = "dab on children"
-      button4.style.display = "block"
-      graphic.src = "https://i.ytimg.com/vi/XWg4vN5JEN8/maxresdefault.jpg"
+    //split #1 (1st) Explore
+    function footprintsandmountain(){
+        bottomtext.innerHTML = "You find footprints along the shore. You follow the footprints for half an hour and find that they lead into the jungle. You see a mountain out in the distance ahead of you. Do you want to go deeper into the jungle or go towards a mountain? Press jungle to go to the jungle or mountain to go towards the mountain:"
+        button1.innerHTML = "Mountain"
+        button1.style.display = "block"
+        button2.innerHTML = "Jungle"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/footprints.png"
     }
-    
-    function alley(){
-      text.innerHTML = "ur in tornado alley now bud"
-      button1.innerHTML = "AAAAAAAAAAAAAAA"
-      button1.style.display = "block"
-      button2.innerHTML = "oh god oh no i'd better run"
-      button2.style.display = "block"
-      button3.innerHTML = "dab"
-      button3.style.display = "none"
-      button4.innerHTML = "play fortnite"
-      button4.style.display = "none"
-      graphic.src = "https://t1.rbxcdn.com/5094e2fa146a1b9f7af88da8fa691d08"
+    //path from footprintsandmountain where you meet Nolan
+    function footprintsandmountain_mountain(){
+        bottomtext.innerHTML = ""
+        button1.innerHTML = ""
+        button1.style.display = "block"
+        button2.innerHTML = ""
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/mountain.jpg"
     }
-    
-    function buttonclick(button){
-      if (state == "intro"){
-        if (button == 1){
-          state = "park"
-          park();
-        }
-        else if (button == 2){
-          state = "alley"
-          alley();
-        }
+    //death from footprintsandmountain Jungle 
+    function footprintsandmountain_jungle(){
+        bottomtext.innerHTML = "You fall off of a cliff and die"
+        button1.innerHTML = "Restart"
+        button1.style.display = "block"
+        graphic.src="/images/cliff.jpg"
+    }
+    //merges with the rest of the program
+    function planeandjungle_second(){
+        bottomtext.innerHTML = "You go towards the mountain and meet Nolan; too dark to explore so you make shelter. You're about to go to sleep, but you hear rattling in the distance; it's Aaron and Emily. It's the next day... Go back to the plane and search it one more time or go deeper into the jungle? Press jungle to explore the jungle, and plane to go back to the plane:"
+        button1.innerHTML = "Jungle"
+        button1.style.display = "block"
+        button2.innerHTML = "Plane"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/jungle.jpg"
+     }
+     //merges with the rest of the program
+     function planeandjungle2_second(){
+        bottomtext.innerHTML = "You go back to the plane, and you see that Kylie is looting the plane. You find a satellite phone, but the signal is too weak. Go to the top of the mountain for more altitude or you explore the island more? Type i to explore the island, and m to go to the mountain:"
+        button1.innerHTML = "Island"
+        button1.style.display = "block"
+        button2.innerHTML = "Mountain"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/mountain.png"    
       }
+      //story ends and takes player back to website
+      function end(){
+        bottomtext.innerHTML = "You start your journey up the mountain. You and your friends reach the top of the mountain and the satellite phone receives a strong signal. You wait for a while and the emergency helicopter arrives; you and your friends safely go back to the desired destination. The End."
+        button1.innerHTML = "Back to Website"
+        button1.style.display = "block"
+      }
+     
+    
+
+    
+    
+    //split #2 (2nd) PLane
+    function planeandfootprints(){
+        bottomtext.innerHTML = "You find materials such as batteries, snacks, and water in the plane then go to the beach. You find footprints along the shore. You follow the footprints for half an hour and find that they lead into the jungle. You see a mountain out in the distance ahead of you. Do you want to go deeper into the jungle or go towards a mountain? Press jungle to go to the jungle or mountain to go towards the mountain:"
+        button1.innerHTML = "Jungle"
+        button1.style.display = "block"
+        button2.innerHTML = "Mountain"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/plane.jpg"
     }
+    //meet nolan and create shelter
+    function planeandjungle(){
+        bottomtext.innerHTML = "You go towards the mountain and meet Nolan; too dark to explore so you make shelter. You're about to go to sleep, but you hear rattling in the distance; it's Aaron and Emily. It's the next day... Go back to the plane and search it one more time or go deeper into the jungle? Press jungle to explore the jungle, and plane to go back to the plane:"
+        button1.innerHTML = "Jungle"
+        button1.style.display = "block"
+        button2.innerHTML = "Plane"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/jungle.jpg"
+        
+    }
+    //restarts the user
+    function restart(){
+        bottomtext.innerHTML = "You trip on a rock and hit your head against the corner of a sharp boulder (restart program)"
+        button1.innerHTML = "Restart"
+        button1.style.display = "block"
+        
+    }
+    //starts journey up the mountain
+    function planeandjungle2(){
+        bottomtext.innerHTML = "You go back to the plane, and you see that Kylie is looting the plane. You find a satellite phone, but the signal is too weak. Go to the top of the mountain for more altitude or you explore the island more? Type i to explore the island, and m to go to the mountain:"
+        button1.innerHTML = "Island"
+        button1.style.display = "block"
+        button2.innerHTML = "Mountain"
+        button2.style.display = "block"
+        button3.innerHTML = "none"
+        button4.innerHTML = "none"
+        graphic.src="/images/mountain.png"    
+    }
+    //story ends and takes player back to website
+    function end(){
+        bottomtext.innerHTML = "You start your journey up the mountain. You and your friends reach the top of the mountain and the satellite phone receives a strong signal. You wait for a while and the emergency helicopter arrives; you and your friends safely go back to the desired destination. The End."
+        button1.innerHTML = "Back to Website"
+        button1.style.display = "block"
+        
+    }
+    function buttonclick(button){
+        if (state =="intro"){
+            if (button == 1){
+                state = "footprintsandmountain"
+                footprintsandmountain()
+            }
+            else if (button == 2){
+                state = "planeandfootprints"
+                planeandfootprints()
+            }    
+            //
+        else if (state =="planeandfootprints"){
+            if (button == 1){
+                state = "planeandjungle2"
+                planeandjungle2()
+            }
+            else if (button == 2){
+                bottomtext.innerHTML = "You trip on a rock and hit your head against the corner of a sharp boulder (restart program)"
+                button1.innerHTML = "Restart"
+                button1.style.display = "block"
+            }
+        }
+        else if (state =="footprintsandmountain"){
+             if (button == 1){
+                state = "footprintsandmountain_mountain"
+                footprintsandmountain_mountain()
+            }
+            else if (button == 2){
+                state = "footprintsandmountain_jungle"
+                footprintsandmountain_jungle()
+            }
+        }
+    }
+}
     
     intro()
+
     
-  </script>
-  
-  </body>
-  </html>
+    
+</script>
+</body>
+</html>
